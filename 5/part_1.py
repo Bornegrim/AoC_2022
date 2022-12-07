@@ -18,7 +18,5 @@ for move in moves:
         creates[to_idx].reverse()
         creates[from_idx].pop(0)
         
-    
-    
 for create in creates:
     print(create[0])

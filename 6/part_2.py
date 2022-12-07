@@ -10,6 +10,6 @@ for idx, char in enumerate(data_buffer):
         result = result[idx_to_keep:] + [char]
     else:
         result.append(char)
-    if len(result) >= 4:
+    if len(result) >= 14:
         print(idx + 1)
         break
